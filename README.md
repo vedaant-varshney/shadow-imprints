@@ -9,6 +9,9 @@ Viewer-Participants are "transported" into a child's bedroom, where they are fre
 - Press `H` to hide settings GUI
 - `Left Click` to clear shadow state if desired
 
+- ml5 is pinned to the 1.x line (`ml5@1`); `ml5@latest` would float to a future major version with breaking API changes (the sketch uses the 1.x `handPose` / `detectStart` API).
+- Library paths in `index.html` are relative (`./_common/...`), so the piece can also be served from a sub-path (e.g. as a git submodule in the website) instead of only from a site root.
+
 
 ## Formal Qualities
 
